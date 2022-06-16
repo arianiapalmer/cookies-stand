@@ -8,10 +8,11 @@ function generateNumberBetween(min, max){
 function genCustPerHour(){
     for (let i = 0; i < hours.length; i++){
         console.log(generateNumberBetween(this.minCust, this.maxCust));
+        return[genCustPerHour];
     }
 }
 
-const seattle = {
+const Seattle = {
     minCust: 23,
     maxCust: 65,
     avgCookiesPerCust: 6.3,
@@ -21,7 +22,7 @@ const seattle = {
 
 seattle.genCustPerHour();
 
-const tokyo = {
+const Tokyo = {
     minCust: 3,
     maxCust: 24,
     avgCookiesPerCust: 1.2,
@@ -29,26 +30,26 @@ const tokyo = {
         
     }
 }
-const paris = {
-    minCust: ,
-    maxCust: ,
-    avgCookiesPerCust: ,
+const Dubai = {
+    minCust: 11,
+    maxCust: 38,
+    avgCookiesPerCust: 3.7,
     genCustPerHour: function( ){
         
     }
 }
-const  = {
-    minCust: ,
-    maxCust: ,
-    avgCookiesPerCust: ,
+const Paris = {
+    minCust: 20,
+    maxCust: 38,
+    avgCookiesPerCust: 2.3,
     genCustPerHour: function( ){
         
     }
 }
-const  = {
-    minCust: ,
-    maxCust: ,
-    avgCookiesPerCust: ,
+const Lima = {
+    minCust: 2,
+    maxCust: 16,
+    avgCookiesPerCust: 4.6,
     genCustPerHour: function( ){
         
     }
