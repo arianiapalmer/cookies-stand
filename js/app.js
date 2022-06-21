@@ -71,27 +71,14 @@ console.log(seattleCookiesPerHour);
 
 displayHours(seattleCookiesPerHour);
 
-// const tokyo = {
-//   minCust: 3,
-//   maxCust: 24,
-//   avgCookiePerCust: 1.2,
-//   genCustPerHour: function () { }
-// };
-// const paris = {
-//   minCust: 20,
-//   maxCust: 38,
-//   avgCookiePerCust: 2.3,
-//   genCustPerHour: function () { }
-// };
-// const lima = {
-//   minCust: 2,
-//   maxCust: 16,
-//   avgCookiePerCust: 4.6,
-//   genCustPerHour: function () { }
-// };
-// const dubai = {
-//   minCust: 11,
-//   maxCust: 38,
-//   avgCookiePerCust: 3.7,
-//   genCustPerHour: function () { }
-// };
+var store = function(minCust, maxCust avgCookiePerCust, genCookiesPerHour){ // update with each parameter as needed
+  this.minCust = minCust;
+  this.maxCust = maxCust;
+  this.avgCookiePerCust = avgCookiePerCust;
+  this.genCookiesPerHour = genCookiesPerHour;
+}
+
+tokyo = store(3, 24, 1.2, );
+paris = store(20,38, 2.3, );
+lima = store(2, 16, 4.6, );
+dubai = store(11, 38, 3.7, );
