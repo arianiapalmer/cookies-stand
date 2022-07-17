@@ -11,21 +11,22 @@ main {
     /* background-image: url(/img/fish.jpg); */
     margin: 1% 20% ;
 }
-#right, #left {
+.right, .left {
     width: 250px;
     height: 100px;
 }
-#left {
+.left {
     transform: scaleX(-1);
 }
 header{
     background-color: rgb(199, 136, 147);
     padding-bottom: 10px;
+    padding-top:10px;
 }
 /* body header div{
     display: inline-flex;
 } */
-#header {
+#header, #salesHeader{
     display: inline-flex;
 }
 header div, header nav {
@@ -38,12 +39,12 @@ h1, h3, h2 {
     border-bottom: solid;
     text-align: ce;
 }
-nav li {
+.nav li {
     list-style: none;
     padding: 15px;
     display: inline;
 }
-nav li:hover {
+.nav li:hover {
     background-color: rgb(0, 0, 0, 0.15);
     color: aliceblue;
 }
